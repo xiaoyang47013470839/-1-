@@ -21,6 +21,7 @@ import bz2
 import json
 import pickle
 import shutil
+import tempfile
 from pathlib import Path
 
 import numpy as np
@@ -39,7 +40,7 @@ from sklearn.preprocessing import StandardScaler
 # ---------------------------------------------------------------- 路径与常量
 BASE_DIR = Path(__file__).resolve().parent
 DATA_CSV = BASE_DIR / "data" / "01_credit_default.csv"
-MODEL_PKL = BASE_DIR / "models" / "rf_best_model.pkl"
+MODEL_PKL = Path(tempfile.gettempdir()) / "rf_best_model.pkl"
 MODEL_BZ2 = BASE_DIR / "models" / "rf_best_model.pkl.bz2"
 METRICS_JSON = BASE_DIR / "models" / "test_metrics.json"
 PRED_CSV = BASE_DIR / "models" / "test_predictions.csv"
