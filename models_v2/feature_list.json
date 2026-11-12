@@ -1,0 +1,35 @@
+{
+  "base": [
+    "credit_limit_ntd",
+    "sex_code",
+    "education_code",
+    "marriage_code",
+    "age_years",
+    "pay_status_2005_09",
+    "pay_status_2005_08",
+    "pay_status_2005_07",
+    "pay_status_2005_06",
+    "pay_status_2005_05",
+    "pay_status_2005_04",
+    "bill_amount_2005_09_ntd",
+    "bill_amount_2005_08_ntd",
+    "bill_amount_2005_07_ntd",
+    "bill_amount_2005_06_ntd",
+    "bill_amount_2005_05_ntd",
+    "bill_amount_2005_04_ntd",
+    "paid_amount_2005_09_ntd",
+    "paid_amount_2005_08_ntd",
+    "paid_amount_2005_07_ntd",
+    "paid_amount_2005_06_ntd",
+    "paid_amount_2005_05_ntd",
+    "paid_amount_2005_04_ntd"
+  ],
+  "new": [
+    "utilization_09",
+    "avg_utilization_6m",
+    "repayment_ratio_6m",
+    "trend_pay_status",
+    "overdue_count_6m",
+    "bill_std_6m"
+  ]
+}
